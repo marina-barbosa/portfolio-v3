@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>marina-barbosa</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
@@ -13,18 +14,18 @@
 <body>
     <nav>
         <div class="nav">
-            <span>&lt;/> marina-barbosa</span>
+            <a href="#home"><span>&lt;/> marina-barbosa</span></a>
             <ul>
-                <li><a href="">home</a></li>
-                <li><a href="">projetos</a></li>
-                <li><a href="">skills</a></li>
-                <li><a href="">exp</a></li>
-                <li><a href="">contato</a></li>
+                <li><a href="#home">home</a></li>
+                <li><a href="#projetos">projetos</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#exp">exp</a></li>
+                <li><a href="#contato">contato</a></li>
             </ul>
         </div>
     </nav>
     <section>
-        <div class="home">
+        <div id="home" class="home">
             <div class="left">
                 <img class="avatar" src="img/avatar.png" alt="" srcset="">
                 <ul>
@@ -52,42 +53,16 @@
         </div>
     </section>
     <section>
-        <div class="services">
-
-        </div>
-    </section>
-    <section class="projetos">
-        <div class="big-card">
-            <div class="top">
-                <div class="left">
-                    <h1>Nome Projeto - 2023</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat
-                        viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
-                    </p>
-                    <p align="center"><img src="https://skillicons.dev/icons?i=javascript,css,html,bootstrap" />
-                    </p>
-                </div>
-                <div class="right">
-                    <img class="little-card" src="img/Captura de tela 2024-01-10 085253.png" alt="" srcset="">
-                </div>
-            </div>
-            <div class="bot">
-                <button class="btn-primary">live</button>
-                <button class="btn-primary">github</button>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="skills">
+        <div id="skills" class="skills">
             <p> I code with </p>
 
-            <p align="center"><img
+            <p class="skill-ok" align="center"><img
                     src="https://skillicons.dev/icons?i=javascript,nodejs,express,postgres,git,p5js,figma,css,html,bootstrap" />
             </p>
 
             <p> Studying in this moment </p>
 
-            <p align="center"><img
+            <p class="skill-study" align="center"><img
                     src="https://skillicons.dev/icons?i=angular,typescript,cs,dotnet,ruby,rails,vue,react,java,spring" />
             </p>
 
@@ -181,27 +156,94 @@
             </div>
         </div>
     </section>
+    <section style="display: none;">
+        <div class="services">
+
+        </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <div class="big-card">
+            <div class="top">
+                <div class="left">
+                    <h1>Nome Projeto - 2023</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat
+                        viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+                    </p>
+                    <p align="center"><img src="https://skillicons.dev/icons?i=javascript,css,html,bootstrap" />
+                    </p>
+                </div>
+                <div class="right">
+                    <img class="little-card" src="img/Captura de tela 2024-01-10 085253.png" alt="" srcset="">
+                </div>
+            </div>
+            <div class="bot">
+                <button class="btn-primary">live</button>
+                <button class="btn-primary">github</button>
+            </div>
+        </div>
+        <div class="big-card">
+            <div class="top">
+                <div class="left">
+                    <h1>Nome Projeto - 2023</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat
+                        viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+                    </p>
+                    <p align="center"><img src="https://skillicons.dev/icons?i=javascript,css,html,bootstrap" />
+                    </p>
+                </div>
+                <div class="right">
+                    <img class="little-card" src="img/Captura de tela 2024-01-10 085253.png" alt="" srcset="">
+                </div>
+            </div>
+            <div class="bot">
+                <button class="btn-primary">live</button>
+                <button class="btn-primary">github</button>
+            </div>
+        </div>
+        <div class="big-card">
+            <div class="top">
+                <div class="left">
+                    <h1>Nome Projeto - 2023</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat
+                        viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+                    </p>
+                    <p align="center"><img src="https://skillicons.dev/icons?i=javascript,css,html,bootstrap" />
+                    </p>
+                </div>
+                <div class="right">
+                    <img class="little-card" src="img/Captura de tela 2024-01-10 085253.png" alt="" srcset="">
+                </div>
+            </div>
+            <div class="bot">
+                <button class="btn-primary">live</button>
+                <button class="btn-primary">github</button>
+            </div>
+        </div>
+    </section>
+
     <section>
-        <div class="contato">
+        <div id="contato" class="contato">
             <h2>Contato</h2>
             <p>Lorem ipsum dolor sit amet consectetur</p>
 
             <form action="/enviar" method="post">
-                <input type="email" id="email" name="email">
+                <input type="email" placeholder="Email" id="email" name="email">
                 <br>
                 <br>
-                <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+                <textarea placeholder="Mensagem" id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
                 <br>
                 <br>
                 <button class="btn-primary" type="submit">enviar</button>
             </form>
         </div>
         <footer>
-            <h2>footer</h2>
+            <p>© 2024 marina-barbosa</p>
         </footer>
     </section>
 
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="scrollreveal.js"></script>
 </body>
 
 </html>
