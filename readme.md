@@ -11,8 +11,6 @@ A versão antiga do portfólio foi desenvolvida utilizando as seguintes tecnolog
 - HTML5: Estruturação de conteúdo.
 - CSS3: Estilização e layout responsivo.
 - JavaScript: Funcionalidades interativas.
-- ReactJS: Componentes dinâmicos e estrutura do front-end.
-- Bootstrap: Layout rápido e responsivo (caso tenha sido utilizado).
 - Font Awesome: Ícones escaláveis para melhorar a visualização.
 - Devicons: Ícones para representar habilidades e ferramentas de desenvolvimento.
 - SkillIcons: Ícones para destacar habilidades e tecnologias de programação.
